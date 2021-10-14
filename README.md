@@ -1,5 +1,5 @@
 # Bob's book club API
-
+[Heroku Deployment](https://bobs-book-club.herokuapp.com/)
 ## Local setup
 
  - Clone the repo and cd into the directory
