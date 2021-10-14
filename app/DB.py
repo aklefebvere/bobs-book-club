@@ -15,9 +15,6 @@ def book_info(id):
         Output: JSON of the price and title of a book
     """
     # Create the DB connection
-    # conn = psycopg2.connect(dbname=DBNAME, user=USER,
-    #                         password=PASSWORD, host=HOST, port=PORT)
-
     conn = psycopg2.connect(URI)
 
     # Create the cursor
