@@ -16,7 +16,7 @@
  
 ## Endpoint
 ### /book/<id (int)>
- - A get request that allows the user to enter a book's id to return that specific book's price and title in a JSON object.
+ - A GET request that allows the user to enter a book's id to return that specific book's price and title in a JSON object.
 	 - Entering a non-integer will return a 404 error
  - If the user enters a book id that does not exist in the database then it will return a empty JSON object .
  - price is a float and title is a string.
